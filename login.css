@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#page-wrapper{
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url(./img/img_mountains_wide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header{
+    font-size: 2.3em;
+    color: crimson;
+    font-family: Algerian;
+    border-style: inset;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgba(42, 197, 197);
+
+
+}
+#header-wraper{
+    background-image: url(./img/logo-3.jpg.png);
+    background-repeat: no-repeat;
+    padding-top: 0%;
+    background-position: center;
+    border-style: inset;
+    border-radius: 20%;
+}
+
+ul.topnav {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5%;
+    text-align: center;
+}
+    
+
+ul.topnav li a {
+    display: block;
+    color:white;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(197, 165, 167);}
+
+ul.topnav li a.active {background-color: rgb(195, 68, 68);}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float:none;background-color: rgba(222, 184, 135, 0);border-style:hidden;}
+    ul.topnav li a{color: green;}
+    ul.topnav li a:hover:not(.active) {background-color: rgba(197, 165, 167, 0.507);}
+    ul.topnav li a.active {background-color: rgba(195, 68, 68, 0.513);}
+
+}
+
+#news{
+    font-size: 2.5em;
+    color:whitesmoke;
+    background-color: rgba(0, 128, 128, 0.698);
+
+}
+
+.pagedescript{
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-block-end: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:15%;
+    padding-right: 20%;
+    padding-bottom:10%;
+    padding-top: 10%;
+    text-align: left;
+    
+    }
+ .pagedescript h1{
+        color: rgb(128, 96, 15);
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: gray;
+        text-align: center;
+    }
+
+.pagedescript form{
+    background-color: darkseagreen;
+    border-style: inset;
+    padding-left:15%;
+    padding-right: 20%;
+    padding-bottom:10%;
+    padding-top: 10%;
+}
+
+#p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    color: crimson;
+    text-align: center;
+    background-color: darkgray;
+    border-style: inset;
+    
+}
+#pp{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    color: crimson;
+    border-style: inset;
+
+}
+.footer{
+    background-color: dimgray;
+    padding-left: 8%;
+    line-height: 1.8;
+}
+.footer li{
+    display: inline-block;
+    padding-left:5%;
+    line-height:1;
+}
+.footer address{
+    padding-left:5%;
+
+}
+.info{
+    font-family:serif;
+}
+.info li{
+    display: block;
+    padding-left: 5%;
+    font-size:2em;
+}
+.info li a{
+    text-decoration: none;
+    color: black;
+}
+#infop{
+    font-size: 1.2em;
+}
+
+ul.topnav li {float: left;
+    background-color: rgba(42, 197, 197);
+    border-radius: 0;
+    border-style: inset;
+}
+

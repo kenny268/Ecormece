@@ -1,0 +1,212 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+html{
+    height: 100%;
+}
+.header{
+    align-items: center;
+    text-align: center;
+}
+.header h1{
+    color:yellow;
+    background-attachment: fixed;
+    backface-visibility: visible;
+    background-color: black;
+    opacity: 0.5;
+    border-style: none;
+    border-spacing: inherit;
+    padding: 14px 16px;
+    
+}
+#header-wraper{
+    background-image: url(./img/logo.jpg.png);
+    background-repeat: no-repeat;
+    padding-top: 0%;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 20%;
+}
+#page-wraper{margin: 0;
+/*background:url(./img/nature.jpeg)no-repeat center center fixed;*/
+background:linear-gradient(rgba(0,0,0,0.5),#009688);
+background-color: rgb(191, 214, 216);
+background-repeat: no-repeat;
+
+
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5%;
+    text-align: center;
+    }
+
+ul.topnav li {
+float: left;
+background-color: teal;
+border-radius: 5%;}
+/*******drop down*******/
+ul.topnav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/**************/
+
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(75, 71, 71);}
+
+ul.topnav li a.active {background-color: rgb(195, 68, 68);}
+
+ul.topnav li.right {float: center;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+.pagedescript{
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-block-end: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:15%;
+    padding-right: 20%;
+    padding-bottom:10%;
+    padding-top: 10%;
+    text-align: center;
+    
+    }
+
+    .pagedescript h1{
+        color: rgb(128, 96, 15);
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: gray;
+    }
+#p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:35px;
+    color: crimson;
+    background-color: darkgray;
+    border-style: inset;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/*.footer{
+    color: #EEE;
+    padding: 20px;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color:rgb(65, 62, 62);
+}
+#footer{
+    text-align: center;
+    font-size: 1rem;
+}*/
+#product{
+    
+    background-color: rgb(116, 105, 62);
+}
+#pagedescript{
+
+    padding-left:15%;
+    padding-right: 20%;
+    padding-bottom:10%;
+    padding-top: 10%;
+    text-align: center;
+    
+    }
+    .footer{
+        background-color: dimgray;
+        padding-left: 8%;
+        line-height: 1.8;
+    }
+    .footer li{
+        display: inline-block;
+        padding-left:5%;
+        line-height:1;
+    }
+    .footer address{
+        padding-left:5%;
+    
+    }
+    .info{
+        font-family:serif;
+    }
+    .info li{
+        display: block;
+        padding-left: 5%;
+        font-size:2em;
+    }
+    .info li a{
+        text-decoration: none;
+        color: black;
+    }
+    #infop{
+        font-size: 1.2em;
+    }
